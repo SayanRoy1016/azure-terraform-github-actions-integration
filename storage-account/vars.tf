@@ -1,14 +1,13 @@
 variable "resource_group_name" {
-    type =  string
-    description = "azure resource group name"
+    type = string
 }
 
 variable "location" {
-  type = string
+    type = string
 }
 
 variable "storage_account_name" {
-  type = string
+    type = string
 }
 
 variable "storage_container_name" {
