@@ -1,4 +1,4 @@
-resource_group_name = "resourcegroupazure"
+resource_group_name = "terraform-github"
 location = "canadacentral"
-storage_account_name = "azurestorageaccount"
-storage_container_name = "blobstorage"
+service_plan_name = "azureterraformserviceplan"
+web_app_name = "youtubeclone14"
