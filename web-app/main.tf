@@ -6,7 +6,7 @@ resource "azurerm_linux_web_app" "youtubeclone14" {
   public_network_access_enabled = true
   site_config {
     application_stack {
-      node_version = "18 LTS"
+      node_version = "18-lTS"
     }
   }
 }
