@@ -29,16 +29,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: 'Terraform Workspace'
-        id: workspace
-        run: |
-          terraform workspace select qa
-
       # Runs a single command using the runners shell
       - name: 'Terraform init'
         id: init
         run: |
-          terraform init          
+          terraform init
+
+      - name: 'Terraform Workspace'
+        id: workspace
+        run: |
+          terraform workspace select qa
 
       - name: 'Terraform plan'
         id: plan
