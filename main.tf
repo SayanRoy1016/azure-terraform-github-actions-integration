@@ -1,9 +1,9 @@
-module "serviceplan" {
+/*module "serviceplan" {
   source = "./service-plan"
   service_plan_location = var.location
   service_plan_name = var.service_plan_name
   resource_group_name = var.resource_group_name
-}
+}*/
 
 module "webapp" {
   source = "./web-app"
