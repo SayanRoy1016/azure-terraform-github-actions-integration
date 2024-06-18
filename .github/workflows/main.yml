@@ -43,7 +43,7 @@ jobs:
       - name: 'Terraform Workspace'
         id: workspace
         run: |
-          terraform workspace new qa
+          terraform workspace select qa
                     
       - name: 'Terraform apply'
         id: apply
