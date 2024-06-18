@@ -38,7 +38,7 @@ jobs:
       - name: 'Terraform plan'
         id: plan
         run: |
-          terraform plan
+          terraform plan --var-file qa.tfvars
 
       - name: 'Terraform Workspace'
         id: workspace
