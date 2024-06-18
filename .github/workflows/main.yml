@@ -39,6 +39,11 @@ jobs:
         id: plan
         run: |
           terraform plan
+
+      - name: 'Terraform Workspace'
+        id: workspace
+        run: |
+          terraform workspace new qa
                     
       - name: 'Terraform apply'
         id: apply
