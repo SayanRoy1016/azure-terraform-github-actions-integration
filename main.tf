@@ -3,6 +3,7 @@ module "serviceplan" {
   service_plan_location = var.location
   service_plan_name = var.service_plan_name
   resource_group_name = var.resource_group_name
+  sku_name = var.sku_name
 }
 
 module "webapp" {

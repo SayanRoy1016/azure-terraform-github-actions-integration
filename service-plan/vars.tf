@@ -9,3 +9,7 @@ variable "resource_group_name" {
 variable "service_plan_location" {
   type = string
 }
+
+variable "sku_name" {
+  type = string
+}
